@@ -131,5 +131,5 @@ void CNameGeneratorDlg::OnBnClickedButtonGenerate()
 	else
 		strName = m_Generator.Generate((GENERATE_CONDITION)m_combobox_CompositeRule.GetCurSel());
 
-	m_staticName.SetWindowText(WCHAR_TO_WCHAR(strName.c_str()));
+	m_staticName.SetWindowText(strName.c_str());
 }
