@@ -69,7 +69,7 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; ..\..\light\light\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; ..\..\light\light\include;</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -83,12 +83,12 @@
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; $(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; $(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>light_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\lib; ..\..\light\light\Lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\lib; ..\..\light\light\Lib;</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -105,7 +105,7 @@
       <ValidateAllParameters>false</ValidateAllParameters>
     </Midl>
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; ..\..\light\light\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; ..\..\light\light\include;</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
@@ -118,12 +118,12 @@
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <Culture>0x0409</Culture>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; $(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; $(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>light.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\lib; ..\..\light\light\Lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\lib; ..\..\light\light\Lib;</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
@@ -137,21 +137,21 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug1|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; ..\Include; ..\..\TinyXml\Include; ..\..\Boost\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; ..\Include; ..\..\TinyXml\Include; ..\..\Boost\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\lib; ..\Lib; ..\..\TinyXml\lib ;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\lib; ..\Lib; ..\..\TinyXml\lib ;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies); light_D.lib;TinyXml_D.lib;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release1|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63; ..\Include; ..\..\TinyXml\Include; ..\..\Boost\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0; ..\Include; ..\..\TinyXml\Include; ..\..\Boost\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\lib; ..\Lib; ..\..\TinyXml\lib ;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\lib; ..\Lib; ..\..\TinyXml\lib ;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies); light.lib;TinyXml.lib;</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
