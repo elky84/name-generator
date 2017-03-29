@@ -14,13 +14,15 @@
 
 // Modify the following defines if you have to target a platform prior to the ones specified below.
 // Refer to MSDN for the latest info on corresponding values for different platforms.
-#ifndef WINVER				// Allow use of features specific to Windows XP or later.
-#define WINVER 0x0501		// Change this to the appropriate value to target other versions of Windows.
+// 아래 지정된 플랫폼에 우선하는 플랫폼을 대상으로 하는 경우 다음 정의를 수정하십시오.
+// 다른 플랫폼에 사용되는 해당 값의 최신 정보는 MSDN을 참조하십시오.
+#ifndef WINVER				// Windows XP 이상에서만 기능을 사용할 수 있습니다.
+#define WINVER 0x0600		// 다른 버전의 Windows에 맞도록 적합한 값으로 변경해 주십시오.
 #endif
 
-#ifndef _WIN32_WINNT		// Allow use of features specific to Windows XP or later.                   
-#define _WIN32_WINNT 0x0501	// Change this to the appropriate value to target other versions of Windows.
-#endif						
+#ifndef _WIN32_WINNT		// Windows XP 이상에서만 기능을 사용할 수 있습니다.                   
+#define _WIN32_WINNT 0x0600	// 다른 버전의 Windows에 맞도록 적합한 값으로 변경해 주십시오.
+#endif					
 
 #ifndef _WIN32_WINDOWS		// Allow use of features specific to Windows 98 or later.
 #define _WIN32_WINDOWS 0x0410 // Change this to the appropriate value to target Windows Me or later.
