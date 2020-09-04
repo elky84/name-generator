@@ -11,7 +11,7 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/elky84/name_generator.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/elky84/name_generator.svg)
 
-# name_generator
+# name-generator
 MFC based name generator.
 
 this program reference by <https://www.slideshare.net/yonghakim900/ndc-2010-43770641>.
