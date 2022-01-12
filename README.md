@@ -1,5 +1,5 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
-![Made with](https://img.shields.io/badge/made%20with-C%23-red.svg)
+![Made with](https://img.shields.io/badge/made%20with-C++-red.svg)
 ![Made with](https://img.shields.io/badge/made%20with-MFC-yellow.svg)
 
 ![GitHub forks](https://img.shields.io/github/forks/elky84/name-generator.svg?style=social&label=Fork)
